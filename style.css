@@ -1,0 +1,82 @@
+/* Colors and fonts */
+
+body {
+    background-color: #FFE4C1;
+    color: black;
+    font-family: 'lora';
+}
+
+h1 {
+    color: #5865A9;
+    font-family: 'robot' ;
+    letter-spacing: 4px;
+    font-size: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: grey; 
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+.card-white {
+    background-color: #ecf3ee;
+    padding: 10px;
+    box-shadow: 2px 5px 10px darkgray;
+    border-radius: 6px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50px;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+#introduction p {
+    margin-bottom: 30px;
+}
+
+
+
